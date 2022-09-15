@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* HEADER */
+header{
+  /* position: fixed;
+  z-index: 999;
+  top: 0%;
+  left: 0%; */
+  height: 80px;
+  width: 100%;
+  display: flex;
+}
+
+.main-menu ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+ul, a{
+  text-decoration: none;
+  list-style: none;
+}
+
+a{
+  color: grey;
+}
+
+.bt{
+  padding: 5px 10px;
+  background-color: rgb(3, 112, 255);
+  color: white;
+}
+
+/* JUMBOTRON */
+.jumbotron{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+}
