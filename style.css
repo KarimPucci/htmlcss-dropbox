@@ -70,3 +70,13 @@ a{
   right: 670px;
   width: 20%;
 }
+
+.img-jumbo{
+  width: 100px;
+  height: 100px;
+}
+
+.img-jumbo img{
+  width: 100%;
+  height: auto;
+}
