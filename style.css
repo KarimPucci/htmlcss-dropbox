@@ -86,10 +86,36 @@ a{
 .container{
   height: 1200px;
   background-color: aquamarine;
+  margin: 0 auto;
 }
 
 .sottotitolo-main{
   margin-top: 100px;
+  margin-right: 8%;
   display: flex;
   justify-content: center;
+  font-size: 25px;
+}
+
+.radio{
+  padding: 30px;
+  margin-left: 25%;
+  position: absolute;
+  letter-spacing: 5px;
+  font-size: small;
+}
+
+.column-container{
+  display: table;
+  width: calc(100% / 2);
+  height: 300px;
+  margin-top: 78px;
+  margin-left: 25%;
+}
+
+.col{
+  display: table-cell;
+  width: calc(100% / 3);
+  box-sizing: border-box;
+  padding: 50px;
 }
