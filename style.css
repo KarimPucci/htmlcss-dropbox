@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 body{
@@ -36,6 +36,10 @@ ul, a{
 
 a{
   color: grey;
+}
+
+.container a{
+  color: white;
 }
 
 .bt{
@@ -85,7 +89,7 @@ a{
 /* MAIN */
 .container {
   width: 1200px;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   margin: 0 auto;
 }
 
@@ -123,3 +127,42 @@ a{
 .orizzontale-2{
   width: 30%;
 }
+
+.box{
+  display: flex;
+  padding-top: 100px;
+}
+
+.main-img{
+  width: 100;
+}
+ .main-img img{
+  width: 500px;
+  height: 100%;
+ }
+
+ .main-paraf{
+  width: 50%;
+  padding-left: 50px;
+  padding-top: 50px;
+ }
+
+ .tit-main-paraf{
+  width: 40%;
+  font-size: 20px;
+  padding-bottom: 20px;
+ }
+
+ .bt-main-paraf{
+  padding: 8px;
+  margin-top: 20px;
+ }
+
+ .immagini{
+  display: flex;
+ }
+
+ .col-immagini{
+  width: calc(100% / 3);
+  padding: 50px;
+ }
