@@ -109,3 +109,15 @@ a{
   width: calc(100% / 3);
   padding: 50px;
 }
+
+.orizzontale{
+  display: flex;
+}
+
+.orizzontale-1{
+  width: 70%;
+}
+
+.orizzontale-2{
+  width: 30%;
+}
